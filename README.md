@@ -28,5 +28,6 @@
 * **pesquisa_qualidade_atendimento:** Quão bem atendido você foi?<br>
 * **pesquisa_nivel_satisfacao:** De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?<br>
 * **pesquisa_comentario:** Comentário.<br>
+* **id_ssi:** Código de identificacao da SSI.<br>
 
 
