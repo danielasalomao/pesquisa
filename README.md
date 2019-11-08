@@ -22,7 +22,7 @@
 * **equipe_suporte_processador:** Equipe de suporte.<br>
 
 #### PESQUISA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **id_pesquisa:** Código de identificacao da SSI.<br>
+* **id_pesquisa:** Código de identificacao.<br>
 * **pesquisa_data_resposta:** Data em que a pesquisa foi respondida.<br>
 * **pesquisa_resolucao_problema:** Seu problema foi resolvido neste atendimento?<br>
 * **pesquisa_agilidade_resolucao:** Quão ágil foi a resolução do seu atendimento?<br>
