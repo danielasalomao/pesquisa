@@ -1,4 +1,1 @@
-# pesquisa
-Pesquisa de Satisfação - TI
-
-Daniela Salomao
+# Pesquisa de Satisfação - TI
