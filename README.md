@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação - TI
 
-### 5.2 DECISÕES DE PROJETO
+### 5.2 DESCRICAO DOS DADOS
 
 #### NOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
 * **id_notificador:** Número de identificacao do notificador.<br>
