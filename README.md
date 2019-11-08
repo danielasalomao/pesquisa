@@ -3,7 +3,7 @@
 #### 5.2 DECISÕES DE PROJETO
 
 * **NOTIFICADOR:** Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **Campo id_notificador:** atributo chave,<br>
+- **Campo id_notificador:** atributo chave,<br>
 * **Campo nome_notificador:**<br>
 * **Campo departamento_notificador:**<br>
 * **Campo diretoria_notificador:**<br>
