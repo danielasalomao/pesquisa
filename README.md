@@ -14,11 +14,11 @@
 ### TABELAS DE DIMENSAO
 
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **ID_Notificador**
-* **Nome**
-* **Departamento**
-* **Diretoria**
-* **Empresa**
+* **ID_Notificador:** Número Decimal
+* **Nome:** Texto
+* **Departamento:** Texto
+* **Diretoria:** Texto
+* **Empresa:** Texto
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **ID_SSI:** Código de identificacao da SSI.<br>
