@@ -50,5 +50,5 @@
 
 ### MODELO STAR SCHEMA
 
-![Alt text](https://github.com/danielasalomao/pesquisa/blob/v2/Star_Schema.png)
+![Alt text](https://github.com/danielasalomao/pesquisa/blob/v1/Star_Schema.png)
 
