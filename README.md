@@ -39,11 +39,11 @@
 * **pesquisa_comentario:** 
 
 #### DCALENDARIO:
-* **Ano:**
-* **Data:**
-* **Dia:**
-* **Mes:**
-* **Mes/Ano:**
+* **Ano:** AAAA
+* **Data:** DD/MM/AAAA
+* **Dia:** DD
+* **Mes:** MM
+* **Mes/Ano:** MM/AAAA<br> 
 
 
 ## MODELAGEM DIMENSIONAL
