@@ -35,6 +35,7 @@
 * **SSI:** Número Inteiro (Necessário??)
 * **Data_Resposta_Pesquisa:** 
 * **Resolucao_Problema:** Texto ; Seu problema foi resolvido neste atendimento? 
+  Tipo de dado:
 * **Agilidade_Atendimento:** Texto ; Quão ágil foi a resolução do seu atendimento?
 * **Qualidade_Atendimento:** Texto ; Quão bem atendido você foi?
 * **Satisfacao_Atendimento:** Número Inteiro ; De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?
