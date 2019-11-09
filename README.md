@@ -31,19 +31,19 @@
 * **equipe_suporte_processador:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **pesquisa_resolucao_problema:**<br>
-* **pesquisa_agilidade_resolucao:**<br>
-* **pesquisa_qualidade_atendimento:**<br>
-* **pesquisa_nivel_satisfacao:**<br>
-* **pesquisa_data_resposta:**<br>
-* **pesquisa_comentario:** 
+* **Resolucao_problema:**<br>
+* **Agilidade_atendimento:**<br>
+* **Qualidade_atendimento:**<br>
+* **Satisfacao_atendimento:**<br>
+* **Data_resposta_pesquisa:**<br>
+* **Comentários:** 
 
 #### DCALENDARIO:
 * **Ano:** AAAA
 * **Data:** DD/MM/AAAA
 * **Dia:** DD
 * **Mes:** MM
-* **Mes/Ano:** MM/AAAA<br> 
+* **Mes/Ano:** MM/AAAA
 
 
 ## MODELAGEM DIMENSIONAL
