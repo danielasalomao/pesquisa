@@ -1,5 +1,11 @@
 # Pesquisa de Satisfação - TI
 
+## QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
+
+Principais Relatórios:
+
+* **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** campus
+
 ## DESCRICAO DOS DADOS
 
 ### TABELA FATO
