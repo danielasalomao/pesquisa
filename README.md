@@ -5,20 +5,20 @@
 ### TABELA FATO
 
 #### FPESQUISA
-* **id_processador:**
-* **id_notificador:**
-* **id_ssi:**
-* **data_criacao_ssi:** Data de abertura da SSI.<br>
-* **data_encerramento_ssi:** Data de encerramento do chamado.<br>
+* **ID_Processador:**
+* **ID_Notificador:**
+* **ID_SSI:**
+* **Data_Criacao_SSI:** Data de abertura da SSI.<br>
+* **Data_Encerramento_SSI:** Data de encerramento do chamado.<br>
 
 ### TABELAS DE DIMENSAO
 
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **id_notificador:** Número de identificacao do notificador.<br>
-* **nome_notificador:** Nome do funcionário.<br>
-* **departamento_notificador:** Departamento.<br>
-* **diretoria_notificador:** Diretoria.<br>
-* **empresa_notificador:** Empresa que o notificador trabalha.<br>
+* **ID_Notificador:** Número de identificacao do notificador.<br>
+* **Nome** Nome do funcionário.<br>
+* **Departamento** Departamento.<br>
+* **Diretoria:** Diretoria.<br>
+* **Empresa:** Empresa que o notificador trabalha.<br>
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **id_ssi:** Código de identificacao da SSI.<br>
