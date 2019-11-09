@@ -21,13 +21,13 @@
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
 * **ID_Notificador:** Identificador do notificador.<br>
    Tipo de dados: Número Decimal.
-* **Nome:** <br>
+* **Nome:** Armazena nome do notificador.<br>
    Tipo de dados: Texto.
-* **Departamento:** <br>
+* **Departamento:** Armazena o departamento que o usuário pertence.<br>
    Tipo de dados: Texto.
-* **Diretoria:** <br>
+* **Diretoria:** Armazena a diretoria que o funcionário trabalha.<br>
    Tipo de dados: Texto.
-* **Empresa:** <br>
+* **Empresa:** Armazena nome da empresa.<br>
    Tipo de dados: Texto.
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
@@ -41,9 +41,9 @@
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** Identificador do processador.<br>
    Tipo de dados: Número Decimal
-* **Nome:** <br>
+* **Nome:** Armazena nome do funcionário.<br>
    Tipo de dados: Texto
-* **Equipe_suporte:** Infra, Sistemas, Suporte N1.<br>
+* **Equipe_suporte:** Armazena a equipe que o processador faz parte. Infra, Sistemas ou Suporte N1.<br>
    Tipo de dados: Texto
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
