@@ -34,7 +34,7 @@
 * **ID_SSI:** Número Decimal
 * **SSI:** Número Inteiro (Necessário??)
 * **Data_Resposta_Pesquisa:** 
-* **Resolucao_Problema:** Texto ; Seu problema foi resolvido neste atendimento? 
+* **Resolucao_Problema:** Texto ; Seu problema foi resolvido neste atendimento? <br>
    Tipo de dado:
 * **Agilidade_Atendimento:** Texto ; Quão ágil foi a resolução do seu atendimento?
 * **Qualidade_Atendimento:** Texto ; Quão bem atendido você foi?
