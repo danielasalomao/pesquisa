@@ -3,7 +3,14 @@
 ## QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 
 * **Principais Relatórios:**
-    - Indice de resolucao do problema
+    - Indice de resolucao do problema atendido pelo setor de TI.
+    - Indice de resolucao do problema atendido por cada equipe de suporte.
+    - Indice de agilidade no atendimento do setor de TI.
+    - Indice de agilidade no atendimento por equipe de suporte.
+    - Indice de qualidade no atendimento do setor de TI.
+    - Indice de qualidade no atendimento por equipe de suporte.
+    - Indice de satisfacao no atendimento do setor de TI.
+    - Indice de satisfacao no atendimento por equipe de suporte.
 
 
 ## DESCRICAO DOS DADOS
