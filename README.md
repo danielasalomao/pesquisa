@@ -11,6 +11,10 @@
     - Indice de qualidade no atendimento por equipe de suporte.
     - Indice de satisfacao no atendimento do setor de TI.
     - Indice de satisfacao no atendimento por equipe de suporte.
+    - Quantidade de pesquisas respondidas por cada setor.
+    - Quantidade de SSI's abertas/ encerradas por cada setor.
+    - Notificadores que mais respondem pesquisa de satisfacao.
+    - Processadores melhores avaliados pelo atendimento.
 
 
 ## DESCRICAO DOS DADOS
