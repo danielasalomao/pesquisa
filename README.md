@@ -23,12 +23,12 @@
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **ID_SSI:** Código de identificacao da SSI.<br>
 * **SSI:** Número da SSI aberta.<br>
-* **Descricao:** Descricao do chamado.<br>
+* **Descricao:** Texto ; Descricao do chamado.<br>
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **ID_Processador:** Número de identificacao do processador.<br>
-* **Nome:** Nome.<br>
-* **Equipe_suporte:** Equipe de suporte.<br>
+* **ID_Processador:** Número Decimal; Número de identificacao do processador.<br>
+* **Nome:** Texto; Nome.<br>
+* **Equipe_suporte:** Texto; Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
 * **ID_SSI:** Número Decimal
