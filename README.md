@@ -31,15 +31,14 @@
 * **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **ID_SSI**
-* **SSI** (Necessário?)
-* **Data_Resposta_Pesquisa** 
-* **Resolucao_Problema:** Seu problema foi resolvido neste atendimento? 
-* Tipo de Dado: Texto
-* **Agilidade_Atendimento:** Quão ágil foi a resolução do seu atendimento?
-* **Qualidade_Atendimento:** Quão bem atendido você foi?
-* **Satisfacao_Atendimento:** De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?
-* **Comentários:** Compartilhe conosco o que achar importante.
+* **ID_SSI:** Tipo de dado: Número Decimal
+* **SSI** Tipo de dado: Número Inteiro (Necessário??)
+* **Data_Resposta_Pesquisa: ** ?
+* **Resolucao_Problema:** Texto ; Seu problema foi resolvido neste atendimento? 
+* **Agilidade_Atendimento:** Texto ; Quão ágil foi a resolução do seu atendimento?
+* **Qualidade_Atendimento:** Texto ; Quão bem atendido você foi?
+* **Satisfacao_Atendimento:** Número Inteiro ; De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?
+* **Comentários:** Texto ; Compartilhe conosco o que achar importante.
 
 
 #### DCALENDARIO:
