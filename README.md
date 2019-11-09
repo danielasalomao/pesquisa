@@ -66,16 +66,16 @@
 
 
 #### DCALENDARIO:
-* **Ano:** AAAA<br>
-   Tipo de dado:
 * **Data:** DD/MM/AAAA<br>
-   Tipo de dado:
+   Tipo de dado: Qualquer (Certo??)
+* **Ano:** AAAA<br>
+   Tipo de dado: Número Inteiro
 * **Dia:** DD<br>
-   Tipo de dado:
+   Tipo de dado: Número Inteiro
 * **Mes:** MM<br>
-   Tipo de dado:
+   Tipo de dado: Número Inteiro
 * **Mes/Ano:** MM/AAAA<br>
-   Tipo de dado:
+   Tipo de dado: Texto
 
 
 ## MODELAGEM DIMENSIONAL
