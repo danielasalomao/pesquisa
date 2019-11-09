@@ -40,42 +40,42 @@
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** <br>
-   Tipo de dado: Número Decimal
+   Tipo de dados: Número Decimal
 * **Nome:** <br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 * **Equipe_suporte:** Infra, Sistemas, Suporte N1.<br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
 * **ID_SSI:** <br>
-   Tipo de dado: Número Decimal
+   Tipo de dados: Número Decimal
 * **SSI:** (Necessário??)<br>
-   Tipo de dado: Número Inteiro
+   Tipo de dados: Número Inteiro
 * **Data_Resposta_Pesquisa:** <br>
-   Tipo de dado:
+   Tipo de dados:
 * **Resolucao_Problema:** Seu problema foi resolvido neste atendimento? <br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 * **Agilidade_Atendimento:** Quão ágil foi a resolução do seu atendimento?<br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 * **Qualidade_Atendimento:** Quão bem atendido você foi?<br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 * **Satisfacao_Atendimento:** De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?<br>
-   Tipo de dado: Número Inteiro
+   Tipo de dados: Número Inteiro
 * **Comentários:** Compartilhe conosco o que achar importante.<br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto
 
 
 #### DCALENDARIO:
 * **Data:** DD/MM/AAAA<br>
-   Tipo de dado: Qualquer (Certo??)
+   Tipo de dados: Qualquer (Certo??)
 * **Ano:** AAAA<br>
-   Tipo de dado: Número Inteiro
+   Tipo de dados: Número Inteiro
 * **Dia:** DD<br>
-   Tipo de dado: Número Inteiro
+   Tipo de dados: Número Inteiro
 * **Mes:** MM<br>
-   Tipo de dado: Número Inteiro
+   Tipo de dados: Número Inteiro
 * **Mes/Ano:** MM/AAAA<br>
-   Tipo de dado: Texto
+   Tipo de dados: Texto (Certo??)
 
 
 ## MODELAGEM DIMENSIONAL
