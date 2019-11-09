@@ -5,11 +5,16 @@
 ### TABELA FATO
 
 #### FPESQUISA
-* **ID_Processador**
-* **ID_Notificador**
-* **ID_SSI**
+* **ID_Processador**<br>
+   Tipo de dado:
+* **ID_Notificador**<br>
+   Tipo de dado:
+* **ID_SSI**<br>
+   Tipo de dado:
 * **Data_Criacao_SSI:** Data de abertura da SSI.<br>
+   Tipo de dado:
 * **Data_Encerramento_SSI:** Data de encerramento do chamado.<br>
+   Tipo de dado:
 
 ### TABELAS DE DIMENSAO
 
