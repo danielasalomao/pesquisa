@@ -3,27 +3,27 @@
 
 ### INTRODUÇÃO E MOTIVAÇÃO
 ---
-O setor de TI visa colaborar com a melhoria do atendimento de solicitacoes e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfacao em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. Deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
+O setor de TI visa colaborar com a melhoria do atendimento de solicitacões e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfação em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. Deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
 
-### INFORMACÕES
+### INFORMAÇÕES
 ---
-O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores serao armazenados o nome, departamento, diretoria e empresa. Das SSI's serao armazenados o número e a descricao. Dos processadores serao armazenados o nome e a equipe de suporte. Cada SSI pode ter vários processadores auxiliando no seu atendimento e cada processador pode estar envolvido em vários atendimentos. Os dados relativos a pesquisa de satisfacao que serao armazenados serao as respostas para 4 perguntas do formulario e comentário(opcional) respondidos pelo notificador. É importante destacar que cada SSI atendida gera um link para responder a pesquisa, e o processador avaliado será o que encerrou a SSI. Um notificador também pode abrir várias SSI's, caso seja necessário, mas nao precisa obrigatoriamente responder a todas pesquisas.
+O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores serao armazenados o nome, departamento, diretoria e empresa. Das SSI's serao armazenados o número e a descrição. Dos processadores serao armazenados o nome e a equipe de suporte. Cada SSI pode ter vários processadores auxiliando no seu atendimento e cada processador pode estar envolvido em vários atendimentos. Os dados relativos a pesquisa de satisfacao que serao armazenados serão as respostas para 4 perguntas do formulario e comentário(opcional) respondidos pelo notificador. É importante destacar que cada SSI atendida gera um link para responder a pesquisa, e o processador avaliado será o que encerrou a SSI. Um notificador também pode abrir várias SSI's, caso seja necessário, mas nao precisa obrigatoriamente responder a todas pesquisas.
 
 
 ### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 ---
 * **Principais Relatórios:**
-    - Indice de resolucao do problema atendido pelo setor de TI.
+    - Indice de resolução do problema atendido pelo setor de TI.
     - Indice de resolucao do problema atendido por cada equipe de suporte.
     - Indice de agilidade no atendimento do setor de TI.
     - Indice de agilidade no atendimento por equipe de suporte.
     - Indice de qualidade no atendimento do setor de TI.
     - Indice de qualidade no atendimento por equipe de suporte.
-    - Indice de satisfacao no atendimento do setor de TI.
-    - Indice de satisfacao no atendimento por equipe de suporte.
+    - Indice de satisfação no atendimento do setor de TI.
+    - Indice de satisfação no atendimento por equipe de suporte.
     - Quantidade de pesquisas respondidas por cada setor.
     - Quantidade de SSI's abertas/ encerradas por cada setor.
-    - Notificadores que mais respondem pesquisa de satisfacao.
+    - Notificadores que mais respondem pesquisa de satisfação.
     - Processadores melhores avaliados pelo atendimento.
  
 
