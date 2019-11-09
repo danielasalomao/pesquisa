@@ -17,7 +17,7 @@
 * **ID_Notificador
 * **Nome
 * **Departamento
-* **Diretoria:
+* **Diretoria:**
 * **Empresa:
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
