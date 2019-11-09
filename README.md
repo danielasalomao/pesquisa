@@ -6,29 +6,29 @@
 
 #### FPESQUISA
 * **ID_Processador:** Identificador do processador.<br>
-   Tipo de dados:
+   Tipo de dados: Número Decimal.
 * **ID_Notificador:** Identificador do notificador.<br>
-   Tipo de dados:
+   Tipo de dados: Número Decimal.
 * **ID_SSI:** Identificador da SSI(chamado).<br>
-   Tipo de dados:
+   Tipo de dados: Número Decimal.
 * **Data_Criacao_SSI:** Data de abertura da SSI.<br>
-   Tipo de dados:
+   Tipo de dados: Qualquer.
 * **Data_Encerramento_SSI:** Data de encerramento do chamado.<br>
-   Tipo de dados:
+   Tipo de dados: Qualquer.
 
 ### TABELAS DE DIMENSAO
 
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
 * **ID_Notificador:** Identificador do notificador.<br>
-   Tipo de dados: Número Decimal
+   Tipo de dados: Número Decimal.
 * **Nome:** <br>
-   Tipo de dados: Texto
+   Tipo de dados: Texto.
 * **Departamento:** <br>
-   Tipo de dados: Texto
+   Tipo de dados: Texto.
 * **Diretoria:** <br>
-   Tipo de dados: Texto
+   Tipo de dados: Texto.
 * **Empresa:** <br>
-   Tipo de dados: Texto
+   Tipo de dados: Texto.
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **ID_SSI:** Identificador da SSI.<br>
@@ -67,15 +67,15 @@
 
 #### DCALENDARIO:
 * **Data:** DD/MM/AAAA<br>
-   Tipo de dados: Qualquer (Certo??)
+   Tipo de dados: Qualquer.
 * **Ano:** AAAA<br>
-   Tipo de dados: Número Inteiro
+   Tipo de dados: Número Inteiro.
 * **Dia:** DD<br>
-   Tipo de dados: Número Inteiro
+   Tipo de dados: Número Inteiro.
 * **Mes:** MM<br>
-   Tipo de dados: Número Inteiro
+   Tipo de dados: Número Inteiro.
 * **Mes/Ano:** MM/AAAA<br>
-   Tipo de dados: Texto (Certo??)
+   Tipo de dados: Texto.
 
 
 ## MODELAGEM DIMENSIONAL
