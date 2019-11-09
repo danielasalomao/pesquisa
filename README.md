@@ -21,14 +21,14 @@
 * **Empresa:** Texto
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
-* **ID_SSI:** Número Decimal
-* **SSI:** Número Inteiro
-* **Descricao:** Texto
+* **ID_SSI:** Número Decimal.
+* **SSI:** Número Inteiro.
+* **Descricao:** Texto.
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **ID_Processador:** Número Decimal; Identificacao do processador.
+* **ID_Processador:** Número Decimal.
 * **Nome:** Texto.
-* **Equipe_suporte:** Texto.
+* **Equipe_suporte:** Texto ; Infra, Sistemas, Suporte N1.
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
 * **ID_SSI:** Número Decimal
