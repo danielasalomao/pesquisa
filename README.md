@@ -1,54 +1,118 @@
-# Pesquisa de Satisfação - TI
+# Pesquisa de Satisfação - TI - Power BI
+---
 
-## DESCRICAO DOS DADOS
+### INTRODUÇÃO E MOTIVAÇÃO
+---
+O setor de TI visa colaborar com a melhoria do atendimento de solicitacões e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfação em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. Deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
 
-### TABELA FATO
+### INFORMAÇÕES
+---
+O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores serao armazenados o nome, departamento, diretoria e empresa. Das SSI's serao armazenados o número e a descrição. Dos processadores serao armazenados o nome e a equipe de suporte. Cada SSI pode ter vários processadores auxiliando no seu atendimento e cada processador pode estar envolvido em vários atendimentos. Os dados relativos a pesquisa de satisfacao que serao armazenados serão as respostas para 4 perguntas do formulario e comentário(opcional) respondidos pelo notificador. É importante destacar que cada SSI atendida gera um link para responder a pesquisa, e o processador avaliado será o que encerrou a SSI. Um notificador também pode abrir várias SSI's, caso seja necessário, mas nao precisa obrigatoriamente responder a todas pesquisas.
 
-#### FPESQUISA
-* **id_processador:**
-* **id_notificador:**
-* **id_ssi:**
-* **data_criacao_ssi:** Data de abertura da SSI.<br>
-* **data_encerramento_ssi:** Data de encerramento do chamado.<br>
 
-### TABELAS DE DIMENSAO
+### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
+---
+* **Principais Relatórios:**
+    - Indice de resolução do problema atendido pelo setor de TI.
+    - Indice de resolucao do problema atendido por cada equipe de suporte.
+    - Indice de agilidade no atendimento do setor de TI.
+    - Indice de agilidade no atendimento por equipe de suporte.
+    - Indice de qualidade no atendimento do setor de TI.
+    - Indice de qualidade no atendimento por equipe de suporte.
+    - Indice de satisfação no atendimento do setor de TI.
+    - Indice de satisfação no atendimento por equipe de suporte.
+    - Quantidade de pesquisas respondidas por cada setor.
+    - Quantidade de SSI's abertas/ encerradas por cada setor.
+    - Notificadores que mais respondem pesquisa de satisfação.
+    - Processadores melhores avaliados pelo atendimento.
+ 
+### TABELA DE DADOS 
 
-#### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **id_notificador:** Número de identificacao do notificador.<br>
-* **nome_notificador:** Nome do funcionário.<br>
-* **departamento_notificador:** Departamento.<br>
-* **diretoria_notificador:** Diretoria.<br>
-* **empresa_notificador:** Empresa que o notificador trabalha.<br>
+* [Formulário](https://www.google.com.br/)
+* [Tabela](https://www.google.com.br/)
 
-#### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
-* **id_ssi:** Código de identificacao da SSI.<br>
-* **numero_ssi:** Número da SSI aberta.<br>
-* **descricao_ssi:** Descricao do chamado.<br>
 
-#### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **ID_Processador:** Número de identificacao do processador.<br>
-* **Nome:** Nome.<br>
-* **Equipe_suporte:** Equipe de suporte.<br>
+### DESCRIÇÃO DOS DADOS
+---
+#### TABELA FATO
 
-#### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **Resolucao_problema:**<br>
-* **Agilidade_atendimento:**<br>
-* **Qualidade_atendimento:**<br>
-* **Satisfacao_atendimento:**<br>
-* **Data_resposta_pesquisa:**<br>
-* **Comentários:** 
+##### FPESQUISA
+* **ID_Processador:** Identificador do processador.<br>
+    - Tipo de dados: Número Decimal.
+* **ID_Notificador:** Identificador do notificador.<br>
+    - Tipo de dados: Número Decimal.
+* **ID_SSI:** Identificador da SSI(chamado).<br>
+    - Tipo de dados: Número Decimal.
+* **Data_Criacao_SSI:** Armazena a data que a SSI foi aberta.<br>
+    - Tipo de dados: Qualquer.
+* **Data_Encerramento_SSI:** Armazena a data que a SSI foi encerrada.<br>
+    - Tipo de dados: Qualquer.
+
+#### TABELAS DE DIMENSÃO
+
+##### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
+* **ID_Notificador:** Identificador do notificador.<br>
+    - Tipo de dados: Número Decimal.
+* **Nome:** Armazena nome do notificador.<br>
+    - Tipo de dados: Texto.
+* **Departamento:** Armazena o departamento que o usuário pertence.<br>
+    - Tipo de dados: Texto.
+* **Diretoria:** Armazena a diretoria que o funcionário trabalha.<br>
+    - Tipo de dados: Texto.
+* **Empresa:** Armazena nome da empresa.<br>
+    - Tipo de dados: Texto.
+
+##### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
+* **ID_SSI:** Identificador da SSI.<br>
+    - Tipo de dados: Número Decimal.
+* **SSI:** Armazena o número da SSI aberta. <br>
+    - Tipo de dados: Número Inteiro.
+* **Descricao:** Descreve a SSI.<br>
+    - Tipo de dados: Texto.
+
+##### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
+* **ID_Processador:** Identificador do processador.<br>
+    - Tipo de dados: Número Decimal.
+* **Nome:** Armazena nome do funcionário.<br>
+    - Tipo de dados: Texto.
+* **Equipe_suporte:** Armazena a equipe que o processador faz parte. Infra, Sistemas ou Suporte N1.<br>
+    - Tipo de dados: Texto.
+
+##### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
+* **ID_SSI:** Identificador da SSI.<br>
+    - Tipo de dados: Número Decimal.
+* **SSI:** (Necessário??)<br>
+    - Tipo de dados: Número Inteiro.
+* **Data_Resposta_Pesquisa:** Armazena a data em que a pesquisa foi respondida.<br>
+    - Tipo de dados: Qualquer.
+* **Resolucao_Problema:** Seu problema foi resolvido neste atendimento? <br>
+    - Tipo de dados: Texto.
+* **Agilidade_Atendimento:** Quão ágil foi a resolução do seu atendimento?<br>
+    - Tipo de dados: Texto.
+* **Qualidade_Atendimento:** Quão bem atendido você foi?<br>
+    - Tipo de dados: Texto.
+* **Satisfacao_Atendimento:** De 1 a 5, quão satisfeito você está com o serviço prestado neste atendimento?<br>
+    - Tipo de dados: Número Inteiro.
+* **Comentários:** Compartilhe conosco o que achar importante.<br>
+    - Tipo de dados: Texto.
+
 
 #### DCALENDARIO:
-* **Ano:** AAAA
-* **Data:** DD/MM/AAAA
-* **Dia:** DD
-* **Mes:** MM
-* **Mes/Ano:** MM/AAAA
+* **Data:** DD/MM/AAAA<br>
+    - Tipo de dados: Qualquer.
+* **Ano:** AAAA<br>
+    - Tipo de dados: Número Inteiro.
+* **Dia:** DD<br>
+    - Tipo de dados: Número Inteiro.
+* **Mes:** MM<br>
+    - Tipo de dados: Número Inteiro.
+* **Mes/Ano:** MM/AAAA<br>
+    - Tipo de dados: Texto.
 
 
-## MODELAGEM DIMENSIONAL
+### MODELO DIMENSIONAL
+---
+#### STAR SCHEMA
 
-### MODELO STAR SCHEMA
-
-![Alt text](https://github.com/danielasalomao/pesquisa/blob/v2/Star_Schema.png)
+![Alt text](https://github.com/danielasalomao/pesquisa/blob/v1/Star_Schema.png)
 
