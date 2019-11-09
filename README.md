@@ -28,7 +28,7 @@ O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores s
  
 
 
-### DESCRICAO DOS DADOS
+### DESCRIÇÃO DOS DADOS
 ---
 #### TABELA FATO
 
@@ -44,7 +44,7 @@ O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores s
 * **Data_Encerramento_SSI:** Armazena a data que a SSI foi encerrada.<br>
     - Tipo de dados: Qualquer.
 
-#### TABELAS DE DIMENSAO
+#### TABELAS DE DIMENSÃO
 
 ##### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
 * **ID_Notificador:** Identificador do notificador.<br>
