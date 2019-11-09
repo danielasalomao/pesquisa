@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação - TI
 
-## 5.2 DESCRICAO DOS DADOS
+## DESCRICAO DOS DADOS
 
 ### TABELA FATO
 
