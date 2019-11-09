@@ -28,8 +28,8 @@ O projeto proposto conterá as informacões aqui detalhadas. Dos notificadores s
  
 ### TABELA DE DADOS 
 
-* **Formulário:**[GitHub Pages](aqui o link)
-* **Tabela:**[GitHub Pages](aqui o link)
+* **Formulário:** [GitHub Pages](aqui o link)
+* **Tabela:** [GitHub Pages](aqui o link)
 
 
 ### DESCRIÇÃO DOS DADOS
