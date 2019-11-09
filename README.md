@@ -1,7 +1,7 @@
 # Pesquisa de Satisfação - TI
 
 ### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
-
+---
 * **Principais Relatórios:**
     - Indice de resolucao do problema atendido pelo setor de TI.
     - Indice de resolucao do problema atendido por cada equipe de suporte.
@@ -19,7 +19,7 @@
 
 
 ### DESCRICAO DOS DADOS
-
+---
 #### TABELA FATO
 
 ##### FPESQUISA
@@ -97,7 +97,7 @@
 
 
 ### MODELAGEM DIMENSIONAL
-
+---
 #### MODELO STAR SCHEMA
 
 ![Alt text](https://github.com/danielasalomao/pesquisa/blob/v1/Star_Schema.png)
