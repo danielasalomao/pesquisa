@@ -31,7 +31,7 @@
 * **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **Resolucao_Problema:**
+* **Resolucao_Problema:** Seu problema foi resolvido neste atendimento?
 * **Agilidade_Atendimento:**
 * **Qualidade_Atendimento:**
 * **Satisfacao_Atendimento:**
