@@ -5,11 +5,11 @@
 ### TABELA FATO
 
 #### FPESQUISA
-* **ID_Processador**<br>
+* **ID_Processador:** Identificador do processador.<br>
    Tipo de dados:
-* **ID_Notificador**<br>
+* **ID_Notificador:** Identificador do notificador.<br>
    Tipo de dados:
-* **ID_SSI**<br>
+* **ID_SSI:** Identificador da SSI(chamado).<br>
    Tipo de dados:
 * **Data_Criacao_SSI:** Data de abertura da SSI.<br>
    Tipo de dados:
@@ -19,7 +19,7 @@
 ### TABELAS DE DIMENSAO
 
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **ID_Notificador:** <br>
+* **ID_Notificador:** Identificador do notificador.<br>
    Tipo de dados: Número Decimal
 * **Nome:** <br>
    Tipo de dados: Texto
@@ -31,7 +31,7 @@
    Tipo de dados: Texto
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
-* **ID_SSI:** <br>
+* **ID_SSI:** Identificador da SSI.<br>
    Tipo de dados: Número Decimal
 * **SSI:** <br>
    Tipo de dados: Número Inteiro
@@ -39,7 +39,7 @@
    Tipo de dados: Texto
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **ID_Processador:** <br>
+* **ID_Processador:** Identificador do processador.<br>
    Tipo de dados: Número Decimal
 * **Nome:** <br>
    Tipo de dados: Texto
@@ -47,7 +47,7 @@
    Tipo de dados: Texto
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **ID_SSI:** <br>
+* **ID_SSI:** Campo identificador do<br>
    Tipo de dados: Número Decimal
 * **SSI:** (Necessário??)<br>
    Tipo de dados: Número Inteiro
