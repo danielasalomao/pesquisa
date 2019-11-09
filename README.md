@@ -2,9 +2,9 @@
 
 ## QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 
-Principais Relatórios:
+* **Principais Relatórios:**
+    - Indice de resolucao do problema
 
-* **Relatório da frequência geral dos alunos por disciplina, incluindo as seguintes informações:** campus
 
 ## DESCRICAO DOS DADOS
 
