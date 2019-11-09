@@ -15,6 +15,7 @@
     - Quantidade de SSI's abertas/ encerradas por cada setor.
     - Notificadores que mais respondem pesquisa de satisfacao.
     - Processadores melhores avaliados pelo atendimento.
+ 
 
 
 ## DESCRICAO DOS DADOS
