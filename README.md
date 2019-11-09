@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação - TI
 
-## 5.2 DECISÕES DE PROJETO
+## 5.2 DESCRICAO DOS DADOS
 
 ### TABELA FATO
 
@@ -42,7 +42,9 @@
 
 
 
+## MODELAGEM DIMENSIONAL
 
+### MODELO STAR SCHEMA
 
 ![Alt text](https://github.com/danielasalomao/pesquisa/blob/v2/Modelo_Star_Schema.png)
 
