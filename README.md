@@ -32,11 +32,11 @@
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **ID_SSI:** Identificador da SSI.<br>
-   Tipo de dados: Número Decimal
-* **SSI:** <br>
-   Tipo de dados: Número Inteiro
-* **Descricao:** <br>
-   Tipo de dados: Texto
+   Tipo de dados: Número Decimal.
+* **SSI:** Armazena o número da SSI aberta. <br>
+   Tipo de dados: Número Inteiro.
+* **Descricao:** Descreve a SSI.<br>
+   Tipo de dados: Texto.
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** Identificador do processador.<br>
