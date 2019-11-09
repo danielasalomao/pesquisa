@@ -31,9 +31,9 @@
 * **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **ID_SSI:** Tipo de dado: Número Decimal
-* **SSI** Tipo de dado: Número Inteiro (Necessário??)
-* **Data_Resposta_Pesquisa: ** ?
+* **ID_SSI:** Número Decimal
+* **SSI:** Número Inteiro (Necessário??)
+* **Data_Resposta_Pesquisa: ** 
 * **Resolucao_Problema:** Texto ; Seu problema foi resolvido neste atendimento? 
 * **Agilidade_Atendimento:** Texto ; Quão ágil foi a resolução do seu atendimento?
 * **Qualidade_Atendimento:** Texto ; Quão bem atendido você foi?
