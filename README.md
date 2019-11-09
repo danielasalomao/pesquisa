@@ -21,9 +21,9 @@
 * **Empresa:** Texto
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
-* **ID_SSI:** Código de identificacao da SSI.<br>
-* **SSI:** Número da SSI aberta.<br>
-* **Descricao:** Texto ; Descricao do chamado.<br>
+* **ID_SSI:** Número Decimal<br>
+* **SSI:** Número Inteiro <br>
+* **Descricao:** Texto<br>
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** Número Decimal; Número de identificacao do processador.<br>
