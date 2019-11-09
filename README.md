@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação - TI
 
-## 5.2 DECISÕES DE PROJETO
+## DESCRICAO DOS DADOS
 
 ### TABELA FATO
 
@@ -26,16 +26,29 @@
 * **descricao_ssi:** Descricao do chamado.<br>
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **id_processador:** Número de identificacao do processador.<br>
-* **nome_processador:** Nome.<br>
-* **equipe_suporte_processador:** Equipe de suporte.<br>
+* **ID_Processador:** Número de identificacao do processador.<br>
+* **Nome:** Nome.<br>
+* **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **pesquisa_resolucao_problema:**<br>
-* **pesquisa_agilidade_resolucao:**<br>
-* **pesquisa_qualidade_atendimento:**<br>
-* **pesquisa_nivel_satisfacao:**<br>
-* **pesquisa_data_resposta:**<br>
-* **pesquisa_comentario:** 
+* **Resolucao_problema:**<br>
+* **Agilidade_atendimento:**<br>
+* **Qualidade_atendimento:**<br>
+* **Satisfacao_atendimento:**<br>
+* **Data_resposta_pesquisa:**<br>
+* **Comentários:** 
 
 #### DCALENDARIO:
+* **Ano:** AAAA
+* **Data:** DD/MM/AAAA
+* **Dia:** DD
+* **Mes:** MM
+* **Mes/Ano:** MM/AAAA
+
+
+## MODELAGEM DIMENSIONAL
+
+### MODELO STAR SCHEMA
+
+![Alt text](https://github.com/danielasalomao/pesquisa/blob/v2/Star_Schema.png)
+
