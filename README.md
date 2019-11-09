@@ -1,6 +1,6 @@
 # Pesquisa de Satisfação - TI
 
-## QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
+### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 
 * **Principais Relatórios:**
     - Indice de resolucao do problema atendido pelo setor de TI.
@@ -18,11 +18,11 @@
  
 
 
-## DESCRICAO DOS DADOS
+### DESCRICAO DOS DADOS
 
-### TABELA FATO
+#### TABELA FATO
 
-#### FPESQUISA
+##### FPESQUISA
 * **ID_Processador:** Identificador do processador.<br>
    Tipo de dados: Número Decimal.
 * **ID_Notificador:** Identificador do notificador.<br>
@@ -34,9 +34,9 @@
 * **Data_Encerramento_SSI:** Armazena a data que a SSI foi encerrada.<br>
    Tipo de dados: Qualquer.
 
-### TABELAS DE DIMENSAO
+#### TABELAS DE DIMENSAO
 
-#### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
+##### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
 * **ID_Notificador:** Identificador do notificador.<br>
    Tipo de dados: Número Decimal.
 * **Nome:** Armazena nome do notificador.<br>
@@ -48,7 +48,7 @@
 * **Empresa:** Armazena nome da empresa.<br>
    Tipo de dados: Texto.
 
-#### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
+##### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
 * **ID_SSI:** Identificador da SSI.<br>
    Tipo de dados: Número Decimal.
 * **SSI:** Armazena o número da SSI aberta. <br>
@@ -56,7 +56,7 @@
 * **Descricao:** Descreve a SSI.<br>
    Tipo de dados: Texto.
 
-#### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
+##### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** Identificador do processador.<br>
    Tipo de dados: Número Decimal.
 * **Nome:** Armazena nome do funcionário.<br>
@@ -64,7 +64,7 @@
 * **Equipe_suporte:** Armazena a equipe que o processador faz parte. Infra, Sistemas ou Suporte N1.<br>
    Tipo de dados: Texto.
 
-#### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
+##### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
 * **ID_SSI:** Identificador da SSI.<br>
    Tipo de dados: Número Decimal.
 * **SSI:** (Necessário??)<br>
