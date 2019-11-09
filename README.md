@@ -5,25 +5,25 @@
 ### TABELA FATO
 
 #### FPESQUISA
-* **ID_Processador:**
-* **ID_Notificador:**
-* **ID_SSI:**
+* **ID_Processador**
+* **ID_Notificador**
+* **ID_SSI**
 * **Data_Criacao_SSI:** Data de abertura da SSI.<br>
 * **Data_Encerramento_SSI:** Data de encerramento do chamado.<br>
 
 ### TABELAS DE DIMENSAO
 
 #### DNOTIFICADOR: Armazena informacoes relativas ao notificador (pessoa que abre a SSI).<br>
-* **ID_Notificador
-* **Nome
-* **Departamento
-* **Diretoria:**
-* **Empresa:
+* **ID_Notificador**
+* **Nome**
+* **Departamento**
+* **Diretoria**
+* **Empresa**
 
 #### DSSI: Armazena informacoes relativas a SSI (chamado).<br>
-* **id_ssi:** Código de identificacao da SSI.<br>
-* **numero_ssi:** Número da SSI aberta.<br>
-* **descricao_ssi:** Descricao do chamado.<br>
+* **ID_SSI:** Código de identificacao da SSI.<br>
+* **SSI:** Número da SSI aberta.<br>
+* **Descricao:** Descricao do chamado.<br>
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
 * **ID_Processador:** Número de identificacao do processador.<br>
@@ -31,12 +31,15 @@
 * **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
-* **Resolucao_problema:**<br>
-* **Agilidade_atendimento:**<br>
-* **Qualidade_atendimento:**<br>
-* **Satisfacao_atendimento:**<br>
-* **Data_resposta_pesquisa:**<br>
+* **Resolucao_Problema:**
+* **Agilidade_Atendimento:**
+* **Qualidade_Atendimento:**
+* **Satisfacao_Atendimento:**
+* **Data_Resposta_Pesquisa:**
 * **Comentários:** 
+* **ID_SSI:**
+* **SSI:**
+
 
 #### DCALENDARIO:
 * **Ano:** AAAA
