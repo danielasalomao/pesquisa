@@ -3,7 +3,7 @@
 
 ### INTRODUÇÃO E MOTIVAÇAO
 ---
-O setor de TI visa colaborar com a melhoria do atendimento de solicitacoes e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfacao em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. O projeto deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
+O setor de TI visa colaborar com a melhoria do atendimento de solicitacoes e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfacao em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. Deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
 
 ### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 ---
