@@ -96,9 +96,9 @@
     - Tipo de dados: Texto.
 
 
-### MODELAGEM DIMENSIONAL
+### MODELO DIMENSIONAL
 ---
-#### MODELO STAR SCHEMA
+#### STAR SCHEMA
 
 ![Alt text](https://github.com/danielasalomao/pesquisa/blob/v1/Star_Schema.png)
 
