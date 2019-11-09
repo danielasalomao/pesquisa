@@ -5,6 +5,12 @@
 ---
 O setor de TI visa colaborar com a melhoria do atendimento de solicitacoes e incidentes para uma empresa melhor. Sabendo-se dos desafios para gerenciar o atendimento dentro de uma empresa e visando unir as informações relativas a funcionários, departamentos, diretorias, SSI's e respostas da pesquisa de satisfacao em um mesmo local, ficamos motivados com o desenvolvimento do projeto. O projeto "Pesquisa de Satisfacao - TI - Power BI" tem como objetivo gerenciar todas as informações das atividades de atendimento do setor de TI. Deverá gerar um conjunto de relatórios que por sua vez atenderá os anseios da empresa.
 
+### NOME TROCAR
+---
+Dos notificadores serao armazenados o nome, departamento, diretoria e empresa. Das SSI's serao armazenados o número e a descricao. Dos processadores serao armazenados o nome e a equipe de suporte. Cada SSI pode ter vários processadores auxiliando no seu atendimento e cada processador pode estar envolvido em vários atendimentos. Os dados relativos a pesquisa de satisfacao que serao armazenados serao as respostas para 4 perguntas do formulario e comentário(opcional). É importante destacar que cada SSI atendida gera um link para responder a pesquisa, e o processador avaliado será o que encerrou a SSI.
+
+O sistema proposto para a "Devcom Projetos conterá as informacões aqui detalhadas.  Os dados relativos aos empregados que serão armazenados são: rg, nome, cpf, salário, data inicial do salario e supervisor de cada empregado. É importante destacar que cada empregado pode ser supervisionado por outro empregado, e obrigatoriamente deve estar alocado a um único departamento, mas pode gerenciar vários departamentos ou não gerenciar nenhum. Um empregado também pode participar de vários projetos, caso seja necessário, mas não precisa obrigatoriamente estar alocado em algum projeto. Com relação aos dependentes serão armazenadas as informações de nome do dependente, data de nascimento, sexo e grau de parentesco. Cada empregado pode ter vários dependentes, mas um dependente esta associado apenas a um único empregado. Com relação ao histórico de salário devemos armazenar as informações de valor do salário, data de início do salário no período e data final do salário no período. É importante lembrar que cada funcionario pode ter diversos eventos de histórico de salário associados a ele visto que este dado pode ser alterado várias vezes.
+
 ### QUAIS PERGUNTAS PODEM SER RESPONDIDAS?
 ---
 * **Principais Relatórios:**
