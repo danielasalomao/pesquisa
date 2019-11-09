@@ -26,9 +26,9 @@
 * **descricao_ssi:** Descricao do chamado.<br>
 
 #### DPROCESSADOR: Armazena informacoes relativas ao processador (pessoa que atende a SSI).<br>
-* **id_processador:** Número de identificacao do processador.<br>
-* **nome_processador:** Nome.<br>
-* **equipe_suporte_processador:** Equipe de suporte.<br>
+* **ID_Processador:** Número de identificacao do processador.<br>
+* **Nome:** Nome.<br>
+* **Equipe_suporte:** Equipe de suporte.<br>
 
 #### DRESPOSTA: Armazena informacoes referentes ao preenchimento da pesquisa de satisfacao.<br>
 * **Resolucao_problema:**<br>
